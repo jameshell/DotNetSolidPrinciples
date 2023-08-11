@@ -1,4 +1,4 @@
-namespace Liskov
+namespace LiskovSubstitution
 {
     public class EmployeeContractor : Employee
     {

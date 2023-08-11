@@ -1,8 +1,8 @@
-namespace Liskov
+namespace LiskovSubstitution
 {
     public class EmployeeFullTime : Employee
     {
-        public int _extraHours { get; set; }
+        private int _extraHours { get; set; }
         public EmployeeFullTime(string fullname, int hoursWorked, int extrahours) : base(fullname, hoursWorked)
         {
             _extraHours = extrahours;

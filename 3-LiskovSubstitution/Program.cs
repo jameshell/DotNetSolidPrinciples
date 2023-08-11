@@ -1,4 +1,4 @@
-﻿using Liskov;
+﻿using LiskovSubstitution;
 
 ShowSalaryMonthly(new List<Employee>() {
     new EmployeeFullTime("Pepito Pérez", 160, 10),
